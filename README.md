@@ -16,10 +16,12 @@ Helm-ls is a [helm](https://github.com/helm/helm) language server protocol [LSP]
 
 <!-- vim-markdown-toc GFM -->
 
+- [Helm Language Server](#helm-language-server)
 - [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Installation with a package manager](#installation-with-a-package-manager)
     - [Homebrew](#homebrew)
+    - [Mise-en-place](#mise-en-place)
     - [Nix](#nix)
     - [Arch Linux](#arch-linux)
     - [Windows](#windows)
@@ -72,6 +74,14 @@ If you are using MacOS or Linux with [Homebrew](https://brew.sh/) you can instal
 
 ```bash
 brew install helm-ls
+```
+
+#### Mise-en-place
+
+If you are using Linux/MacOS/Windows with [mise](https://mise.jdx.dev) you can install it with mise.
+
+```bash
+mise use -g helm-ls@latest
 ```
 
 #### Nix
