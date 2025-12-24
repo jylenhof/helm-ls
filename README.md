@@ -16,7 +16,6 @@ Helm-ls is a [helm](https://github.com/helm/helm) language server protocol [LSP]
 
 <!-- vim-markdown-toc GFM -->
 
-- [Helm Language Server](#helm-language-server)
 - [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Installation with a package manager](#installation-with-a-package-manager)
